@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  overflow-wrap: break-word;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 230px;
+  height: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  position: relative;
+  border-radius: 8px;
+}
+
+.card .image {
+  width: 230px;
+  height: 230px;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 24px;
+}
+.icon img {
+  transition: 0.2s ease;
+}
+
+.icon img:hover {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(96%) saturate(7480%)
+    hue-rotate(358deg);
+}
+
+.content-cont {
+  width: 230px;
+  height: 118.38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(221, 165, 82); */
+  /* margin-top:-28px ; */
+}
+
+.content {
+  width: 230px;
+  height: 68.38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+}
+
+.stock-Id {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.stock-Id span {
+  color: #64748b;
+}
+
+.stock-Id li {
+  color: #059669;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.content .pro-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 230px;
+  height: 34px;
+  background-color: #726d69;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: inter;
+  font-weight: 600;
+  font-style: semi bold;
+}
+button:hover {
+  background-color: #54514f;
+}
