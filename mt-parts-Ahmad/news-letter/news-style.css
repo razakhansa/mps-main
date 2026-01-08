@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 221px;
+    background-color: #EFF4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    font-family: 'Inter', sans-serif;
+    /* background-color: blueviolet; */
+
+}
+
+.newsletter-content {
+    /* background-color: aquamarine; */
+    width: 35%;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.newsletter-content h1 {
+
+    font-size: 30px;
+}
+
+.newsletter-content p {
+
+    color: #64748B;
+    font-size: 15px;
+}
+
+.newsletter-input {
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: #430c0c; */
+    position: relative;
+}
+
+.inp-btn {
+    /* position: relative; */
+    /* background-color: #f11515; */
+}
+
+.newsletter-input input {
+    width: 520px;
+    border: 1px solid #CBD5E1;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.newsletter-input button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #726D69;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+    position: absolute;
+    right: 69px;
+    top: 8px;
+    border: none;
+}
+
+.newsletter-input p {
+    width: 95%;
+    line-height: 25px;
+    color: #64748B;
+    font-size: 15px;
+}
+
+.newsletter-input a {
+    text-decoration: none;
+    color: black;
+}
