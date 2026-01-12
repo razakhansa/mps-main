@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PrimaryButton from "./PrimaryButton";
 
 export default function InventoryPart() {
   return (
@@ -40,13 +41,7 @@ export default function InventoryPart() {
 
             <h4 className="text-sm mb-2.5">Rotor</h4>
           </div>
-
-          <button
-            type="button"
-            className="w-[230px] h-[34px] rounded-lg bg-[#726d69] text-white text-xs font-semibold hover:bg-[#54514f]"
-          >
-            Add to Cart
-          </button>
+          <PrimaryButton text="Add to Cart" />
         </div>
       </div>
     </div>

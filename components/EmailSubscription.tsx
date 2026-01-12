@@ -1,5 +1,7 @@
 // app/components/EmailSubscription.tsx
 
+import PrimaryButton from "./PrimaryButton";
+
 export default function EmailSubscription() {
   return (
     <section className="w-full h-[221px] bg-[#EFF4F7] flex items-center justify-center font-[Inter]">
@@ -22,12 +24,16 @@ export default function EmailSubscription() {
               className="w-[520px] rounded-[10px] border border-slate-300 px-2.5 py-[15px] text-sm outline-none"
             />
 
-            <button
+            {/* <button
               type="button"
-              className="absolute right-[69px] top-2 rounded-lg bg-[#726D69] px-3 py-2.5 text-[14px] font-semibold tracking-[-0.28px] text-white"
             >
               Subscribe
-            </button>
+            </button> */}
+            <PrimaryButton
+              // onClick={}
+              text="Subscribe"
+              className="absolute right-[69px] top-2 px-4 !py-3"
+            />
           </div>
 
           <p className="w-[95%] text-[15px] leading-[25px] text-slate-500">
