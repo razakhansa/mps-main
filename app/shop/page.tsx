@@ -2,7 +2,6 @@
 
 import InventoryPart from "@/components/InventoryPart";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
 
 export default function Shop() {
   const data = Array.from({ length: 10 }, (_, i) => i + 1);
@@ -11,9 +10,12 @@ export default function Shop() {
       <WhyChooseUs />
       <div className="flex flex-wrap gap-5 items-center justify-items-start">
         {data.map((item) => (
-          <div key={item}>
-            <InventoryPart />
-          </div>
+          <InventoryPart
+            key={item}
+            sku={`SKU-${item}`}
+            name={`Product ${item}`}
+            inStock={true}
+          />
         ))}
       </div>
     </div>
