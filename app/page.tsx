@@ -1,9 +1,7 @@
 import DiscountBanner from "@/components/DiscountBanner";
-import LoginForm from "@/components/LoginForm";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
