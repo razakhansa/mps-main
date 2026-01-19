@@ -1,3 +1,4 @@
+import DiscountBanner from "@/components/DiscountBanner";
 "use client";
 
 import Faq from "@/components/FAQ";
@@ -13,6 +14,7 @@ export default function Home() {
         <CatalogBar />
         <Navbar />
         <Faq />
+        <DiscountBanner/>
         <LoginForm/>
       </main>
     </div>
