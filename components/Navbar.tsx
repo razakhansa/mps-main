@@ -42,23 +42,25 @@ export default function Navbar() {
           {/* Header Icons */}
           <div className="flex items-center gap-[20px]">
             {/* Account */}
-            <div className="flex items-center gap-[8px]">
-              <div className="w-[46px] h-[46px] bg-[#e2eaed] border border-[#d4dee2] rounded-full flex items-center justify-center">
-                <button>
-                  <Image
-                    src="/assets/user-icon.svg"
-                    alt="User"
-                    width={24}
-                    height={24}
-                  />
-                </button>
+            <Link href={"/login"}>
+              <div className="flex items-center gap-[8px]">
+                <div className="w-[46px] h-[46px] bg-[#e2eaed] border border-[#d4dee2] rounded-full flex items-center justify-center">
+                  <button>
+                    <Image
+                      src="/assets/user-icon.svg"
+                      alt="User"
+                      width={24}
+                      height={24}
+                    />
+                  </button>
+                </div>
+                <p className="text-[13px] font-bold text-[#333] leading-tight">
+                  <span className="text-[11px] text-[#76797a]">Sign in</span>
+                  <br />
+                  Account
+                </p>
               </div>
-              <p className="text-[13px] font-bold text-[#333] leading-tight">
-                <span className="text-[11px] text-[#76797a]">Sign in</span>
-                <br />
-                Account
-              </p>
-            </div>
+            </Link>
 
             {/* Wishlist */}
             <div className="relative">

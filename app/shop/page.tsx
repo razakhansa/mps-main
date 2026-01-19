@@ -11,9 +11,12 @@ export default function Shop() {
       <WhyChooseUs />
       <div className="flex flex-wrap gap-5 items-center justify-items-start">
         {data.map((item) => (
-          <div key={item}>
-            <InventoryPart />
-          </div>
+          <InventoryPart
+            key={item}
+            sku={`SKU-${item}`}
+            name={`Product ${item}`}
+            inStock={true}
+          />
         ))}
       </div>
     </div>
