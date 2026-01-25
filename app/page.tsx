@@ -2,6 +2,7 @@ import DiscountBanner from "@/components/DiscountBanner";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
+import InventoryCardHorizontal from "@/components/InventoryCardHorizontal";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <CatalogBar />
         <Faq />
+        <InventoryCardHorizontal />
         <DiscountBanner />
       </main>
     </div>
