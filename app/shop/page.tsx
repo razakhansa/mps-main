@@ -1,6 +1,7 @@
 // app/components/WhyChooseUs.tsx
 
 import InventoryPart from "@/components/InventoryPart";
+import PlaceDirectOrdForm from "@/components/PlaceDirectOrdForm";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Shop() {
@@ -17,6 +18,7 @@ export default function Shop() {
             inStock={true}
           />
         ))}
+        <PlaceDirectOrdForm />
       </div>
     </div>
   );
