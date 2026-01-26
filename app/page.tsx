@@ -2,6 +2,7 @@ import DiscountBanner from "@/components/DiscountBanner";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
+import PurchaseOrder from "@/components/PurchaseOrder";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <CatalogBar />
         <Faq />
         <DiscountBanner />
+        <PurchaseOrder />
       </main>
     </div>
   );
