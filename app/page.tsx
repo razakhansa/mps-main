@@ -2,6 +2,7 @@ import DiscountBanner from "@/components/DiscountBanner";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
+import InventoryCardHorizontal from "@/components/InventoryCardHorizontal";
 import CategoryBlockHor from "@/components/CategoryBlockHor";
 import ActionSection from "@/components/ActionSection";
 import PurchaseOrder from "@/components/PurchaseOrder";
@@ -17,6 +18,7 @@ export default function Home() {
         <ActionSection />
         <Clients />
         <Faq />
+        <InventoryCardHorizontal />
         <DiscountBanner />
         <PurchaseOrder />
       </main>
