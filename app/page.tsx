@@ -2,6 +2,7 @@ import DiscountBanner from "@/components/DiscountBanner";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
+import Clients from "@/components/Clients";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full  flex-col items-center justify-between bg-white  sm:items-start">
         <HeroSection />
         <CatalogBar />
+        <Clients />
         <Faq />
         <DiscountBanner />
       </main>
