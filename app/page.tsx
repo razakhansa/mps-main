@@ -2,6 +2,7 @@ import DiscountBanner from "@/components/DiscountBanner";
 import CatalogBar from "@/components/CatalogBar";
 import Faq from "@/components/FAQ";
 import HeroSection from "@/components/HeroSection";
+import PurchaseOrder from "@/components/PurchaseOrder";
 import Clients from "@/components/Clients";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Clients />
         <Faq />
         <DiscountBanner />
+        <PurchaseOrder />
       </main>
     </div>
   );
